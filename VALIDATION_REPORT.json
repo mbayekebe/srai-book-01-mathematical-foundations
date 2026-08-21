@@ -1,0 +1,17 @@
+{
+  "production_unit": "PU-B01-C01",
+  "release": "1.0.0-rc1",
+  "status": "PASS",
+  "required_files": 13,
+  "relative_readme_links_checked": 2,
+  "notebook_validation": "Verification passed.\nPASS: 4 code cells executed; canonical outputs verified; seed=42.",
+  "expected_predictions": [
+    170.0,
+    182.5,
+    195.0
+  ],
+  "expected_sensitivity": [
+    2.5
+  ],
+  "seed": 42
+}
