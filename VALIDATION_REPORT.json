@@ -2,9 +2,9 @@
   "production_unit": "PU-B01-C01",
   "release": "1.0.0-rc1",
   "status": "PASS",
-  "required_files": 13,
+  "required_files": 16,
   "relative_readme_links_checked": 2,
-  "notebook_validation": "Verification passed.\nPASS: 4 code cells executed; canonical outputs verified; seed=42.",
+  "notebook_validation": "srai_math is already available.\nVerification passed.\nPASS: 5 code cells executed; canonical outputs verified; seed=42.",
   "expected_predictions": [
     170.0,
     182.5,

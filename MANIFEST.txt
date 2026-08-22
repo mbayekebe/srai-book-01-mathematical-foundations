@@ -1,6 +1,7 @@
 .github/workflows/validate.yml
 .gitignore
 CITATION.cff
+COLAB_SETUP.md
 README.md
 RELEASE_RECORD.md
 RIGHTS_AND_REUSE.md
@@ -8,6 +9,8 @@ VALIDATION_REPORT.json
 docs/PU-B01-C01_Educational_Exercises_and_Solutions_v1.0.pdf
 docs/PU-B01-C01_Executive_Brief_v1.1.pdf
 notebooks/M1_N01_mathematical_thinking.ipynb
+pyproject.toml
+requirements-colab.txt
 requirements.txt
 scripts/build_release.py
 scripts/validate_notebook.py

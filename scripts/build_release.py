@@ -12,7 +12,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ZIP_PATH = ROOT.parent / f"{ROOT.name}.zip"
 REQUIRED = [
-    "README.md", "requirements.txt", "CITATION.cff", "RIGHTS_AND_REUSE.md",
+    "README.md", "requirements.txt", "requirements-colab.txt",
+    "pyproject.toml", "COLAB_SETUP.md", "CITATION.cff",
+    "RIGHTS_AND_REUSE.md",
     "RELEASE_RECORD.md", ".github/workflows/validate.yml",
     "notebooks/M1_N01_mathematical_thinking.ipynb",
     "srai_math/__init__.py", "srai_math/utils/__init__.py",
