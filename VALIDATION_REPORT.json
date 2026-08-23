@@ -1,10 +1,11 @@
 {
   "production_unit": "PU-B01-C01",
-  "release": "1.0.0-rc1",
+  "release": "1.0.0-rc2",
   "status": "PASS",
-  "required_files": 16,
-  "relative_readme_links_checked": 2,
+  "required_files": 17,
+  "relative_readme_links_checked": 7,
   "notebook_validation": "srai_math is already available.\nVerification passed.\nPASS: 5 code cells executed; canonical outputs verified; seed=42.",
+  "cross_channel_alignment": "PASS — audited chapter, canonical notebook, YouTube lesson and repository landing page aligned",
   "expected_predictions": [
     170.0,
     182.5,

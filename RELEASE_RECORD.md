@@ -1,21 +1,27 @@
-# PU-B01-C01 technical release record
+# PU-B01-C01 coordinated release record
 
 | Field | Value |
 |---|---|
 | Production unit | PU-B01-C01 |
-| Release | 1.0.0 release candidate |
-| Date assembled | 2026-08-21 |
+| Release | 1.0.0-rc2 |
+| Date assembled | 2026-08-23 |
 | Owner | Mbaye Kebe |
-| Status | Private technical release candidate; owner review pending |
+| Status | Private coordinated public-release candidate; final publication approval pending |
+| Audited chapter | `docs/SRAI_Book1_Chapter1_Audited_Controlled_Edition_v1.0.pdf` |
 | Canonical notebook | `notebooks/M1_N01_mathematical_thinking.ipynb` |
+| YouTube lesson | https://www.youtube.com/watch?v=q4wa_3KRGUo |
+| Video duration | 12:36 |
 
 ## Included controlled assets
 
-- GitHub landing page / `README.md` v1.0
+- audited Chapter 1 controlled-edition PDF v1.0
+- GitHub landing page / `README.md` v1.1
 - canonical notebook M1_N01
 - minimal `srai_math` reproducibility utilities required by the notebook
 - Executive Brief v1.1 PDF
 - Educational Exercises and Solutions v1.0 PDF
+- 12:36 YouTube lesson publication candidate
+- local and Google Colab setup controls
 - validation script and GitHub Actions workflow
 - citation, rights, manifest and checksums
 
@@ -29,8 +35,9 @@ The release candidate is acceptable when:
 4. the recorded seed equals `42`;
 5. expected notebook assertions pass;
 6. required files and internal Markdown links resolve; and
-7. SHA-256 checksums match the packaged files.
+7. chapter, notebook, video and landing-page claims are substantively aligned; and
+8. SHA-256 checksums match the packaged files.
 
 ## Publication control
 
-This package is not yet authorized for public release. Before publication, confirm the final repository name and URL, owner approval, licence decision, public contact channel, tested GitHub workflow, release tag and cross-links to the SRAI website, LinkedIn announcement and YouTube channel.
+This branch is authorized only for private release preparation. Do not merge it, change repository visibility or describe the package as publicly released until the custom website domain, public URLs, GitHub Actions, owner approval, final licence position and coordinated LinkedIn/YouTube/website publication sequence have all been confirmed.

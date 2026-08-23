@@ -19,6 +19,7 @@ REQUIRED = [
     "notebooks/M1_N01_mathematical_thinking.ipynb",
     "srai_math/__init__.py", "srai_math/utils/__init__.py",
     "srai_math/utils/reproducibility.py", "scripts/validate_notebook.py",
+    "docs/SRAI_Book1_Chapter1_Audited_Controlled_Edition_v1.0.pdf",
     "docs/PU-B01-C01_Executive_Brief_v1.1.pdf",
     "docs/PU-B01-C01_Educational_Exercises_and_Solutions_v1.0.pdf",
 ]
@@ -50,7 +51,7 @@ def main():
     if result.returncode: raise SystemExit(result.stdout+result.stderr)
 
     report={
-        "production_unit":"PU-B01-C01","release":"1.0.0-rc1","status":"PASS",
+        "production_unit":"PU-B01-C01","release":"1.0.0-rc2","status":"PASS",
         "required_files":len(REQUIRED),"relative_readme_links_checked":len(links),
         "notebook_validation":result.stdout.strip(),
         "expected_predictions":[170.0,182.5,195.0],"expected_sensitivity":[2.5],"seed":42,

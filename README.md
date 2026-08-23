@@ -45,11 +45,22 @@ Each step answers a different question. Skipping a step may produce a number fas
 | Interpretation | What does the output mean—and what does it not mean? |
 | Decision | How should evidence, uncertainty, costs, context, and human responsibility be combined? |
 
+## Start here
+
+The coordinated learning package contains:
+
+- [Audited Chapter 1 — controlled PDF](docs/SRAI_Book1_Chapter1_Audited_Controlled_Edition_v1.0.pdf)
+- [Canonical companion notebook](notebooks/M1_N01_mathematical_thinking.ipynb)
+- [Educational exercises and solutions](docs/PU-B01-C01_Educational_Exercises_and_Solutions_v1.0.pdf)
+- [Executive brief](docs/PU-B01-C01_Executive_Brief_v1.1.pdf)
+- [Google Colab setup instructions](COLAB_SETUP.md)
+- [YouTube lesson — 12:36 publication candidate](https://www.youtube.com/watch?v=q4wa_3KRGUo)
+
+The video is currently part of the controlled publication sequence. Its final public status must be confirmed together with the repository and website links.
+
 ## Companion notebook
 
-The canonical notebook is:
-
-[`notebooks/M1_N01_mathematical_thinking.ipynb`](notebooks/M1_N01_mathematical_thinking.ipynb)
+The canonical notebook is `notebooks/M1_N01_mathematical_thinking.ipynb`.
 
 It contains:
 
@@ -187,10 +198,10 @@ PU-B01-C01/
 | Book | SRAI Book 1 — Mathematical Foundations |
 | Chapter | Chapter 1 — Mathematical Thinking and Reproducible Computation |
 | Canonical notebook | `M1_N01_mathematical_thinking.ipynb` |
-| Landing-page version | `1.0` |
-| Status | Technical release candidate for owner review |
+| Landing-page version | `1.1` |
+| Status | Private coordinated public-release candidate; final publication approval pending |
 
-This repository package was developed from the controlled Chapter 1 content, validated canonical notebook M1_N01, Executive Brief v1.1 and Educational Exercises v1.0. Publication should follow substantive review and approval by Mbaye Kebe.
+This repository package aligns the audited Chapter 1 controlled PDF, validated canonical notebook M1_N01, 12:36 YouTube lesson, Executive Brief v1.1 and Educational Exercises v1.0. The repository remains private until final cross-channel verification and publication approval by Mbaye Kebe.
 
 ## Author
 
