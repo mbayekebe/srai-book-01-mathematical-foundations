@@ -1,18 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this material, please cite it as follows."
-title: "Mathematical Thinking and Reproducible Computation"
+message: "If you use this repository, please cite the relevant production unit and its controlled version."
+title: "SRAI Book 1 — Mathematical Foundations"
 type: software
 authors:
   - family-names: Kebe
     given-names: Mbaye
-version: 1.0.0
-date-released: 2026-08-21
-abstract: "SRAI Book 1, Chapter 1 companion repository on mathematical thinking, reproducible computation, verification, validation and accountable decisions."
+abstract: "Controlled computational and educational production units for SRAI Book 1 — Mathematical Foundations."
 keywords:
+  - mathematics
   - statistics
   - artificial intelligence
   - reproducibility
-  - verification
-  - validation
-  - decision intelligence
+  - responsible AI
+repository-code: "https://github.com/mbayekebe/srai-book-01-mathematical-foundations"
 license: proprietary
