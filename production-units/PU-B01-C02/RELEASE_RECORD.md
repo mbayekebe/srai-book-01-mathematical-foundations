@@ -17,5 +17,6 @@
 | Clean Google Colab runtime | PASS — owner confirmed 2026-08-25 |
 | Platform copy aligned to controlled source | PASS (draft assets) |
 | Owner substantive approval | PASS — confirmed 2026-08-25 |
+| YouTube lesson publication and playback review | PASS — https://youtu.be/VYXyB1-wUFs |
 
 All controlled content, execution and approval gates have passed. This package is authorised for publication as Lesson 2 v1.0.0.

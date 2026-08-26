@@ -11,7 +11,7 @@ Lesson 2 of SRAI Book 1 develops the formal language of sets, logic, relations a
 You will learn how to declare universes and domains, distinguish membership from subsethood, evaluate logical implication without confusing it with causation, and test whether a relation is a partial or total function.
 
 Lesson page: https://srai.mbayekebe.net/
-Notebook and controlled resources: add the final GitHub release URL after publication.
+Notebook and controlled resources: https://github.com/mbayekebe/srai-book-01-mathematical-foundations/tree/main/production-units/PU-B01-C02
 
 SRAI — From statistical reasoning to responsible artificial intelligence.
 

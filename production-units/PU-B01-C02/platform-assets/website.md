@@ -16,3 +16,5 @@ Sets determine what belongs. Logic determines truth conditions. Relations determ
 - document universes, domains, codomains, missing-data rules and decision reasons.
 
 The computational notebook includes complete reference solutions and a Colab-aware bootstrap. The controlled release ZIP passed a clean-runtime Google Colab execution and the manuscript received owner approval on 2026-08-25.
+
+Watch Lesson 2: https://youtu.be/VYXyB1-wUFs
