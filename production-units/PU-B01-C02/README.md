@@ -17,6 +17,15 @@ complete worked solutions and Python reference implementations:
 - `docs/PU-B01-C02_Exercises_and_Solutions_v1.0.pdf`
 - `docs/PU-B01-C02_Exercises_and_Solutions_v1.0.docx`
 
+## Executive brief
+
+The professional Executive Brief translates the lesson's mathematical foundations
+into practical controls for classification, eligibility rules, data relationships
+and accountable decision systems:
+
+- `docs/PU-B01-C02_Executive_Brief_v1.0.pdf`
+- `docs/PU-B01-C02_Executive_Brief_v1.0.docx`
+
 ## Google Colab
 
 Open `notebooks/M1_N02_sets_logic_relations_functions.ipynb` in Colab, run the bootstrap cell, and upload the complete repository ZIP when prompted. Then select **Runtime → Restart session and run all**.
@@ -32,3 +41,5 @@ python scripts/validate_notebook.py
 ## Release status
 
 Version `1.0.1` retains the approved Lesson 2 chapter, notebook and platform materials from v1.0.0 and adds the controlled standalone exercises-and-solutions package.
+
+Version `1.0.2` adds the controlled Executive Brief in PDF and DOCX formats. The approved chapter, notebook, code, exercises and lesson content are unchanged from v1.0.1.
