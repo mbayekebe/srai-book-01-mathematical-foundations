@@ -1,40 +1,50 @@
-# PU-B01-C03 controlled baseline record
+# PU-B01-C03 controlled release record
 
-**Baseline version:** 0.1.0  
-**Status:** APPROVED CHAPTER AND NOTEBOOK BASELINE  
-**Authority:** Book 1 Chapters 1–5 Word-Native Master v1.1  
-**Lesson:** Vector Foundations  
-**Notebook:** M1_N03_vector_foundations.ipynb  
-**Owner approval date:** 2026-08-29
+**Release:** 1.0.0
+**Status:** APPROVED FINAL CONTROLLED RELEASE
+**Lesson:** Vector Foundations
+**Notebook:** M1_N03_vector_foundations.ipynb
+**Prepared:** 2026-08-30
 
 ## Gate status
 
 | Gate | Status |
 |---|---|
-| Chapter source provenance verified | PASS |
-| Chapter content and definitions audited | PASS |
-| DOCX rendered and visually inspected | PASS — 8 pages |
-| DOCX accessibility audit | PASS — 0 findings |
-| Chapter owner substantive approval | PASS — confirmed 2026-08-29 |
-| Notebook executed locally, cell by cell | PASS — 22/22 cells |
-| Vector unit tests | PASS — 4/4 tests |
+| Chapter source provenance and content audit | PASS |
+| Chapter DOCX and controlled PDF | PASS - 8 pages inspected |
+| Notebook local execution | PASS - 22/22 code cells |
+| Vector unit tests | PASS - 4/4 tests |
 | Assertions, invariants and zero-vector guards | PASS |
-| VS Code/Jupyter mathematics rendering | PASS — owner confirmed 2026-08-29 |
-| Notebook owner approval | PASS — confirmed 2026-08-29 |
-| Clean Google Colab runtime | PENDING |
-| Controlled chapter PDF | PENDING |
-| Standalone exercises and complete solutions | PENDING |
-| Executive Brief | PENDING |
-| YouTube lesson and playback review | PENDING |
-| LinkedIn, website and GitHub release copy | PENDING |
-| Final release package and checksums | PENDING |
+| Exercises and complete solutions DOCX/PDF | PASS - 8 pages inspected |
+| Executive Brief DOCX/PDF | PASS - 3 pages inspected |
+| YouTube lesson and public URL | PASS |
+| LinkedIn announcement and technical brief | PASS - owner confirmed |
+| Release manifest, validation report and checksums | PASS |
+| Clean Google Colab runtime | PASS - owner confirmed 2026-08-30 |
+| Owner substantive approval of new documents | PASS - confirmed 2026-08-30 |
+| Public website Lesson 3 page | NEXT PRODUCTION STAGE |
 
-## Approved baseline
+## Final release scope
 
-The owner approved the audited Chapter 3 DOCX and the corrected, executed M1_N03
-notebook on 29 August 2026. The notebook uses portable `$...$` inline and `$$...$$`
-display-math delimiters and passed local execution against the controlled minimal
-`srai_math` vector package.
+The final release unifies the audited chapter, executable notebook, tested vector
+utilities, complete 100-point exercise companion, Executive Brief and control
+metadata. The exercises expand Chapter 3 into conceptual, mathematical,
+computational and applied decision-intelligence work. Their reference code includes
+dimension validation, non-finite-value checks, zero-vector restrictions and
+independent invariant tests.
 
-This baseline authorises continued production work. It does not authorise public
-release of Lesson 3 until the remaining gates have passed.
+The owner substantively approved the Exercises and Solutions and Executive Brief
+on 2026-08-30. On the same date, the owner confirmed a clean Google Colab run:
+all cells completed without red errors, and all formulas, tables and charts
+rendered correctly. These confirmations authorize final controlled release v1.0.0.
+
+## Coordinated publication
+
+- Video: https://www.youtube.com/watch?v=THvzO5_L-Zs
+- Website route: https://srai.mbayekebe.net/learn/pu-b01-c03/
+- Repository: https://github.com/mbayekebe/srai-book-01-mathematical-foundations
+
+## Governing principle
+
+SRAI Principle No. 3: Geometry becomes evidence only after representation,
+scaling and interpretation have been justified.

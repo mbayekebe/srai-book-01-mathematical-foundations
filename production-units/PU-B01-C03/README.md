@@ -1,45 +1,51 @@
-# PU-B01-C03 — Vector Foundations
+# PU-B01-C03 - Vector Foundations
 
-Controlled production baseline for SRAI Book 1, Lesson 3.
+Controlled Production Unit for SRAI Book 1, Lesson 3.
 
-## Current approved assets
+## Controlled learning package
 
-The owner-approved chapter and canonical notebook are:
+- [Audited Chapter 3 DOCX](docs/PU-B01-C03_Chapter3_Vector_Foundations_Audited_Controlled_Edition_v1.0.docx)
+- [Controlled Chapter 3 PDF](docs/PU-B01-C03_Chapter3_Vector_Foundations_Audited_Controlled_Edition_v1.0.pdf)
+- [Exercises and Solutions DOCX](docs/PU-B01-C03_Exercises_and_Solutions_v1.0.docx)
+- [Exercises and Solutions PDF](docs/PU-B01-C03_Exercises_and_Solutions_v1.0.pdf)
+- [Executive Brief DOCX](docs/PU-B01-C03_Executive_Brief_v1.0.docx)
+- [Executive Brief PDF](docs/PU-B01-C03_Executive_Brief_v1.0.pdf)
+- [Canonical notebook](notebooks/M1_N03_vector_foundations.ipynb)
+- [Audit report](CHAPTER_AND_NOTEBOOK_AUDIT_REPORT.md)
+- [Validation report](VALIDATION_REPORT.json)
+- [Controlled release record](RELEASE_RECORD.md)
 
-- `docs/PU-B01-C03_Chapter3_Vector_Foundations_Audited_Controlled_Edition_v1.0.docx`
-- `notebooks/M1_N03_vector_foundations.ipynb`
+## Scope
 
-The chapter audit and notebook validation evidence is recorded in:
+The unit covers vector representation, arithmetic, norms, distance, dot products,
+angles, cosine similarity, projection and rejection, span, Gram-Schmidt
+orthogonalization, data matrices and a synthetic decision-intelligence case. It
+includes dimension checks, zero-vector safeguards, numerical invariants and
+preprocessing-sensitivity analysis.
 
-- `CHAPTER_AND_NOTEBOOK_AUDIT_REPORT.md`
-- `VALIDATION_REPORT.json`
-
-## Notebook scope
-
-M1_N03 covers vector arithmetic, norms, distance, dot products, angles, cosine
-similarity, projection and rejection, span, cross products, Gram–Schmidt
-orthogonalization, statistical data matrices and a synthetic decision-intelligence
-case. It includes zero-vector safeguards and preprocessing-sensitivity checks.
-
-## Local validation
+## Reproduce locally
 
 ```bash
 python -m pip install -r requirements.txt
 python -m pip install -e .
 python -m unittest discover -s tests -v
 python scripts/validate_notebook.py
+python scripts/build_release.py
 ```
 
-## Google Colab
+## Google Colab validation
 
-Open `notebooks/M1_N03_vector_foundations.ipynb` in a clean Colab runtime. Install
-`requirements-colab.txt`, make the controlled `srai_math` package available, restart
-the runtime if requested, and run all cells. Colab validation remains a release gate
-until owner-confirmed.
+The owner opened `notebooks/M1_N03_vector_foundations.ipynb` in a clean Colab
+runtime, installed the controlled `srai_math` package and ran all cells on
+2026-08-30. All cells completed without red errors; formulas, tables and charts
+rendered correctly.
 
-## Production status
+## Coordinated lesson
 
-Baseline version `0.1.0` records the approved chapter, approved notebook and locally
-validated vector package. It is not the final Lesson 3 release. The chapter PDF,
-standalone exercises and solutions, Executive Brief, platform assets, clean Colab
-validation and final release package remain pending.
+- YouTube: https://www.youtube.com/watch?v=THvzO5_L-Zs
+- Planned lesson page: https://srai.mbayekebe.net/learn/pu-b01-c03/
+
+## Release status
+
+Version `1.0.0` is the approved final controlled release. All document,
+computational, visual, owner-review and clean Google Colab gates pass.
