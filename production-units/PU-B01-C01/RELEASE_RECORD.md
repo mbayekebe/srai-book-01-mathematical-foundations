@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Production unit | PU-B01-C01 |
-| Release | 1.0.0-rc2 |
-| Date assembled | 2026-08-23 |
+| Release | 1.0.1 |
+| Date assembled | 2026-08-30 |
 | Owner | Mbaye Kebe |
-| Status | Private coordinated public-release candidate; final publication approval pending |
+| Status | APPROVED FINAL CONTROLLED RELEASE |
 | Audited chapter | `docs/SRAI_Book1_Chapter1_Audited_Controlled_Edition_v1.0.pdf` |
 | Canonical notebook | `notebooks/M1_N01_mathematical_thinking.ipynb` |
 | YouTube lesson | https://www.youtube.com/watch?v=q4wa_3KRGUo |
@@ -20,9 +20,9 @@
 - minimal `srai_math` reproducibility utilities required by the notebook
 - Executive Brief v1.1 PDF
 - Educational Exercises and Solutions v1.0 PDF
-- 12:36 YouTube lesson publication candidate
+- 12:36 published YouTube lesson
 - local and Google Colab setup controls
-- validation script and GitHub Actions workflow
+- validation script
 - citation, rights, manifest and checksums
 
 ## Validation criteria
@@ -40,4 +40,4 @@ The release candidate is acceptable when:
 
 ## Publication control
 
-This branch is authorized only for private release preparation. Do not merge it, change repository visibility or describe the package as publicly released until the custom website domain, public URLs, GitHub Actions, owner approval, final licence position and coordinated LinkedIn/YouTube/website publication sequence have all been confirmed.
+Version 1.0.1 is the approved final controlled metadata and packaging repair release. Owner approval was confirmed on 2026-08-30. This patch aligns the release record with the already published Lesson 1, adds a self-contained rights statement, generates a versioned release ZIP and refreshes validation controls. It does not alter the approved chapter, notebook, exercises, Executive Brief or YouTube lesson.
