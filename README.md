@@ -9,7 +9,8 @@ SRAI — Statistics, Reasoning and Artificial Intelligence — connects mathemat
 | Production unit | Chapter | Title | Notebook | Status |
 |---|---:|---|---|---|
 | [PU-B01-C01](production-units/PU-B01-C01/) | 1 | Mathematical Thinking and Reproducible Computation | `M1_N01_mathematical_thinking.ipynb` | Published |
-| [PU-B01-C02](production-units/PU-B01-C02/) | 2 | Sets, Logic, Relations and Functions | `M1_N02_sets_logic_relations_functions.ipynb` | Approved v1.0.0 |
+| [PU-B01-C02](production-units/PU-B01-C02/) | 2 | Sets, Logic, Relations and Functions | `M1_N02_sets_logic_relations_functions.ipynb` | Published v1.0.2 |
+| [PU-B01-C03](production-units/PU-B01-C03/) | 3 | Vector Foundations | `M1_N03_vector_foundations.ipynb` | Published v1.0.0 |
 
 Additional chapters will be added progressively as independently validated production units.
 
@@ -18,7 +19,8 @@ Additional chapters will be added progressively as independently validated produ
 ```text
 production-units/
 ├── PU-B01-C01/
-└── PU-B01-C02/
+├── PU-B01-C02/
+└── PU-B01-C03/
 ```
 
 Each production unit is self-contained and may include its own notebook, controlled documents, Python utilities, requirements, validation script, release evidence and platform assets.
@@ -35,6 +37,12 @@ python scripts/validate_notebook.py
 
 ```bash
 cd production-units/PU-B01-C02
+python -m pip install -r requirements.txt
+python scripts/validate_notebook.py
+```
+
+```bash
+cd production-units/PU-B01-C03
 python -m pip install -r requirements.txt
 python scripts/validate_notebook.py
 ```
