@@ -1,0 +1,34 @@
+{
+  "record_version": "1.0",
+  "production_unit": "PU-B01-C04",
+  "candidate_version": "0.1.1",
+  "status": "PASS_PRODUCTION_CANDIDATE",
+  "release_ready": false,
+  "validated_utc": "2026-08-31T00:00:00Z",
+  "checks": {
+    "independent_review": "PASS",
+    "review_criteria": "29/29 PASS",
+    "required_findings": 0,
+    "notebook_version": "0.1.3",
+    "notebook_code_cells": "14/14 PASS",
+    "active_kernel_package_import": "PASS",
+    "targeted_mathematical_tests_prior_evidence": "5/5 PASS",
+    "controlled_chapter_render": "PASS - 7 pages",
+    "exercises_solutions_render": "PASS - 5 pages",
+    "executive_brief_render": "PASS - 3 pages",
+    "video_deck_render": "PASS - 16 slides",
+    "video_deck_overflow_test": "PASS",
+    "video_deck_template_fidelity": "PASS - verified Lesson 1 visual system",
+    "video_deck_speaker_notes": "PASS - 16/16 slides",
+    "checksum_manifest": "PASS"
+  },
+  "remaining_gates": [
+    "owner review of controlled production assets",
+    "video recording and publication",
+    "final release package construction",
+    "GitHub release",
+    "website integration and tests",
+    "production HTTP and visual verification",
+    "communications publication"
+  ]
+}
