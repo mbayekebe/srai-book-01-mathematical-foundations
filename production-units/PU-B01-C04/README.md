@@ -1,6 +1,6 @@
 # PU-B01-C04 - Matrix Algebra and Linear Systems
 
-Controlled asset production candidate v0.1.1.
+Controlled asset production candidate v0.1.2.
 
 This package consolidates the independently approved Lesson 4 source into the
 principal assets required for controlled production:
@@ -9,7 +9,7 @@ principal assets required for controlled production:
 - executable notebook v0.1.3 and complete `srai_math` source;
 - educational exercises and complete solutions in DOCX and PDF;
 - Executive Brief in DOCX and PDF;
-- editable 16-slide video lesson deck v1.1, styled from the verified Lesson 1 visual system;
+- editable 16-slide video lesson deck v1.2, styled from the verified Lesson 1 visual system and containing complete audience-facing narration;
 - targeted mathematical tests and independent-review evidence.
 
 ## Local notebook setup

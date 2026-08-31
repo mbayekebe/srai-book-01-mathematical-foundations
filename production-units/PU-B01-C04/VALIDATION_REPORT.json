@@ -1,7 +1,7 @@
 {
   "record_version": "1.0",
   "production_unit": "PU-B01-C04",
-  "candidate_version": "0.1.1",
+  "candidate_version": "0.1.2",
   "status": "PASS_PRODUCTION_CANDIDATE",
   "release_ready": false,
   "validated_utc": "2026-08-31T00:00:00Z",
@@ -19,7 +19,7 @@
     "video_deck_render": "PASS - 16 slides",
     "video_deck_overflow_test": "PASS",
     "video_deck_template_fidelity": "PASS - verified Lesson 1 visual system",
-    "video_deck_speaker_notes": "PASS - 16/16 slides",
+    "video_deck_speaker_notes": "PASS - 16/16 complete audience-facing narration scripts",
     "checksum_manifest": "PASS"
   },
   "remaining_gates": [
