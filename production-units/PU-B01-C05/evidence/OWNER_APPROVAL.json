@@ -1,0 +1,27 @@
+{
+    "record_version":  "1.0",
+    "production_unit":  "PU-B01-C05",
+    "recorded_utc":  "2026-09-01T15:04:36.109129+00:00",
+    "owner":  "Mbaye Kebe",
+    "approval_source":  "Direct owner statements in this conversation",
+    "statements":  [
+                       "It\u0027s work. It works now in Colab. I think I had a connection problem.",
+                       "This notebook is ok. The Chapter is ok.",
+                       "yes.proceed."
+                   ],
+    "approved_scope":  [
+                           "notebook v0.2.2",
+                           "chapter corrected review candidate v0.2.0",
+                           "proceed to controlled asset production",
+                           "new exercises, Executive Brief and deck",
+                           "16-minute video master",
+                           "public release retaining disclosed runtime prerelease 1.1.1rc1"
+                       ],
+    "approved_notebook_sha256":  "010d9a5f3109890312b5dcbf8fe143edcb733936ae75d5e2a86b5fc82ff90b89",
+    "chapter_source_sha256":  "64b17ba4747a3cb84ee253b83a3b09bb384811caa521d74a526d4065ee97c650",
+    "colab_v022":  "owner_reported_pass",
+    "vscode":  "owner reported earlier candidate execution; exact v0.2.2 VS Code run not separately recorded",
+    "independent_review":  "not_performed_owner_authorized_exception",
+    "new_asset_owner_review":  "approved",
+    "lesson_public_release_authorized":  true
+}

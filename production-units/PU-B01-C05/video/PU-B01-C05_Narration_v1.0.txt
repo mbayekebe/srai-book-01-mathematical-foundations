@@ -1,0 +1,63 @@
+SLIDE 01 — LESSON 5 · VECTOR SPACES
+
+Welcome to Lesson 5 of SRAI Book 1: Vector Spaces, Bases, Rank and Projections. When we build a model, we usually represent something complex using a smaller collection of directions or features. That representation can be useful, but it cannot tell us everything. The central question of this lesson is therefore: what does our model retain, and what does it leave out? We will move carefully from spans and bases to rank, orthogonal projection and least squares. We will check the calculations and then interpret their meaning. The expression x equals p plus r will become our guide: p is the component captured by the chosen subspace, while r is the residual. Neither component, on its own, tells us whether a real-world decision is good.
+
+SLIDE 02 — OPENING PROBLEM
+
+A smaller model necessarily restricts what can be represented. Before calculating, we need to know the model's span: the set of all vectors its chosen directions can generate. We must also ask whether those directions form a basis. If some are redundant, the same represented vector may have several coefficient descriptions. Rank then tells us how many independent directions actually remain, rather than how many columns we have written down. Finally, we need to examine the residual. A residual is not just an inconvenience to remove from a report. It records a part of the observation that the chosen model does not capture. Understanding these four issues helps us avoid treating a convenient representation as if it were a complete description of reality.
+
+SLIDE 03 — FOUNDATIONS
+
+Let us separate four closely related ideas. The span of a collection of vectors consists of all their linear combinations. A basis is a spanning collection with no redundant vectors: its vectors are linearly independent. The dimension is the number of vectors in any basis of the space. Coordinates are the coefficients used to reconstruct a particular vector from that basis. These definitions concern a subspace, which contains zero and is closed under addition and scalar multiplication. For example, all vectors of the form a, b, zero form a plane through the origin in three-dimensional space. The shifted plane a, b, one does not contain zero, so it is not a subspace. This small distinction prevents a large conceptual error.
+
+SLIDE 04 — CHANGE OF COORDINATES
+
+Consider the basis vectors one, one and one, minus one. Place them in the columns of B. We want to describe the vector four, two using those columns. The equation Bc equals v gives two scalar equations: c one plus c two equals four, and c one minus c two equals two. Adding the equations gives twice c one equals six, so c one is three. Substitution gives c two equal to one. The coordinates in this basis are therefore three, one. To verify them, reconstruct the vector: three times one, one plus one times one, minus one gives four, two. The vector has not moved. We have changed its coordinate description. This is why every coordinate vector needs an explicit basis.
+
+SLIDE 05 — FUNDAMENTAL SUBSPACES
+
+Now view an m by n matrix A as a map from an n-dimensional input space to an m-dimensional output space. Its column space contains all outputs that the map can produce. Its row space lies in the input space, as does its null space. The null space contains inputs sent to zero. The rank is the dimension of the column space and also of the row space. Rank plus nullity equals n, the input dimension. Notice that the column and null spaces need not belong to the same ambient space. If A has two rows and three columns, its outputs have two coordinates, while its inputs and null-space vectors have three. Keeping these spaces distinct is essential for interpreting the geometry correctly.
+
+SLIDE 06 — WORKED EXAMPLE
+
+Our example matrix has first row one, two, three and second row two, four, six. The second row repeats the first at twice its size, so there is only one independent row. The columns are also multiples of the vector one, two. The rank is therefore one. To find the null space, solve x one plus twice x two plus three times x three equals zero. If x two is s and x three is t, then x one is minus twice s minus three times t. Every null-space vector is thus s times minus two, one, zero plus t times minus three, zero, one. Both displayed vectors are annihilated by A. They are independent, so they form a two-vector basis of the null space.
+
+SLIDE 07 — RANK–NULLITY
+
+The dimensions now tell a complete story. There are three input coordinates, but the output reveals only one independent combination of them. Two independent directions are invisible to the map. This is rank–nullity in action: one plus two equals three. If we add any null-space vector to an input, its output does not change, because A times that added vector is zero. In the notebook, singular value decomposition produces orthonormal bases for these spaces. Those basis vectors may look different from our simple integer examples. A sign change or a different orthonormal basis is not a mathematical failure. What matters is the space they span. We verify that A times the null-space basis is numerically zero and that the reported dimensions agree.
+
+SLIDE 08 — ORTHOGONAL PROJECTION
+
+An orthogonal projection finds the closest vector in a chosen subspace, using Euclidean distance. If Q contains orthonormal basis columns for that subspace, the projector is Q times Q transpose. The projected component is P times x, and the residual is x minus P times x. Three checks make this structure executable. The first checks symmetry: P transpose equals P. The second checks idempotence: applying the projection twice gives the same result as applying it once. The third checks that the residual is perpendicular to every basis direction. The code assumes NumPy has been imported as np and that Q and x are already defined. In floating-point arithmetic, allclose tests these identities within a tolerance. Idempotence alone would not guarantee an orthogonal projection.
+
+SLIDE 09 — PROJECTION GEOMETRY
+
+Take x equal to two, three, four and project it onto the plane with third coordinate zero. Its projection p is two, three, zero. The residual r is zero, zero, four. Adding p and r reconstructs x. Their dot product is zero, so the Pythagorean identity applies: the squared length of x is twenty-nine, the squared length of p is thirteen, and the squared length of r is sixteen. Twenty-nine equals thirteen plus sixteen. This is a check on the geometry, not just on the arithmetic. The notebook's plot shows the first and third coordinates only. The second coordinate is omitted from that view, but it remains three in the full vector. A two-coordinate picture must not be mistaken for the complete three-dimensional object.
+
+SLIDE 10 — LEAST SQUARES
+
+Least squares uses the same geometry when the observations cannot be fitted exactly. We observe responses one, two, two at times zero, one, two, and fit an intercept plus a slope. The design matrix has one column of ones and one column containing the times. Solving gives an intercept of seven sixths and a slope of one half. The fitted responses are seven sixths, five thirds and thirteen sixths. Subtracting them from the observations gives residuals minus one sixth, one third and minus one sixth. These sum to zero and are also orthogonal to the time column. The squared residual norm is one sixth. The notebook uses a least-squares solver rather than explicitly forming an inverse. Here the independent design columns make both coefficients unique.
+
+SLIDE 11 — STATISTICS AND AI
+
+This geometry appears throughout statistics and artificial intelligence. In regression, fitted observations lie in the design matrix's column space. In principal component analysis, centered data are projected onto selected orthonormal principal directions. Low-rank representations keep variation within a reduced model and leave a remainder outside it. Feature redundancy is another rank question: additional columns need not add independent information. However, terminology requires care. In neural networks and attention mechanisms, a so-called projection often means a learned linear transformation. That transformation need not be square, symmetric or idempotent, so it is not automatically an orthogonal projector. In every application, we must specify the representation, preprocessing, scaling and metric before interpreting what is retained or discarded.
+
+SLIDE 12 — NUMERICAL CONTROLS
+
+Reliable software must respect the chosen subspace even when the supplied columns are awkward. The SRAI implementation uses retained left singular vectors to form an orthonormal basis. This handles dependent columns and zero leading columns without assuming that the first few directions from an unpivoted QR factorization identify the correct span. Numerical rank still depends on a tolerance, especially for nearly dependent directions, so sensitive choices must be documented. We then check symmetry, idempotence and residual orthogonality. Finally, compare the mathematical spaces rather than demanding identical signs or entries in basis arrays. Successful package installation tells us that code can be imported; these mathematical tests tell us whether its behavior is correct. Both are needed, and neither replaces interpretation.
+
+SLIDE 13 — POLICY EXAMPLE
+
+The policy example uses three standardized coordinates: Agriculture, Health and Energy. The two illustrative archetypes are one, zero point two, zero point six, and zero point two, one, zero point six. We project the proposed profile zero point nine, zero point seven, zero point one onto their span. The fitted component is two thirds, seven fifteenths and seventeen thirtieths. The residual is seven thirtieths, seven thirtieths and minus seven fifteenths, perpendicular to both archetypes. The negative Energy component means that the proposal lies below its fitted component on that coordinate. It does not prove that the policy is wrong. The archetypes and scaling determine the comparison. If coefficients must be nonnegative or sum to one, we need a constrained model; an unconstrained subspace projection does not enforce those requirements.
+
+SLIDE 14 — PRACTICE
+
+The exercises follow a deliberate progression. First, identify whether a set is a subspace and compute coordinates in a specified basis. Next, calculate rank and null spaces, then construct and verify an orthogonal projector. At the third level, reproduce the least-squares example and explain why its residual is perpendicular to the model space. Finally, interpret the policy example without turning a geometric result into a value judgment. The complete solutions show the intermediate steps, not just final numbers. Work through a problem before consulting its solution, then use the notebook to test your reasoning. When a result differs, check the basis, dimensions, tolerance and metric before assuming that the calculation itself must be wrong.
+
+SLIDE 15 — KEY INSIGHT
+
+A defensible interpretation requires all six elements on this slide. The subspace defines what the model can represent. Coordinates describe a vector relative to a basis. Rank identifies the independent directions available. The residual records what remains outside the chosen model. The metric and scaling determine what counts as close, perpendicular or large. Consequences determine how the result should be used and what additional evidence is required. These are not separate decorations around a calculation. They are the conditions that give the calculation meaning. A precise output from an undocumented subspace is not a transparent analytical result. Keeping the whole chain visible allows another person to reproduce the computation, challenge the assumptions and understand the limits of the conclusion.
+
+SLIDE 16 — CLOSING
+
+We can now return to our opening question: what does the model retain, and what does it leave out? Spans and bases define a representation. Coordinates describe vectors within it. Rank distinguishes independent information from redundancy. Orthogonal projection separates a captured component from a perpendicular residual, and least squares applies that geometry to observations. We also saw why a policy residual is a diagnostic rather than a verdict, and why a learned linear map is not necessarily an orthogonal projection. Use the controlled chapter for the reasoning, the notebook for reproducible calculations, and the exercises for independent practice. The aim is not simply to produce numbers. It is to make each representation interpretable, reproducible and accountable. Thank you for following this SRAI lesson.

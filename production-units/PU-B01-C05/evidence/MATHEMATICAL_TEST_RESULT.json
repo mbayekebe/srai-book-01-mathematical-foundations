@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scope": "30 prior core tests + 11 Lesson 5 tests + 9 new asset checks",
+  "output": "..................................................                       [100%]\n50 passed in 0.13s\n",
+  "python": "3.12.13"
+}

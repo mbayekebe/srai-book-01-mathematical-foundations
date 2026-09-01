@@ -1,0 +1,65 @@
+{
+    "production_unit":  "PU-B01-C05",
+    "candidate_version":  "0.1.0",
+    "status":  "owner_approved_release_preparation",
+    "assets":  [
+                   {
+                       "path":  "docs/PU-B01-C05_Chapter5_Vector_Spaces_Bases_Rank_and_Projections_Controlled_Edition_v1.0.docx",
+                       "size_bytes":  20331,
+                       "sha256":  "8db6198a16674ca081ea6da285abdf2a71e03e1067b16079a5f91ff34ef8d347"
+                   },
+                   {
+                       "path":  "docs/PU-B01-C05_Chapter5_Vector_Spaces_Bases_Rank_and_Projections_Controlled_Edition_v1.0.pdf",
+                       "size_bytes":  109533,
+                       "sha256":  "4db403a7db8f09671175310d7711bd945dac94fab2176ebe6ad68e1cfe142ef4"
+                   },
+                   {
+                       "path":  "docs/PU-B01-C05_Educational_Exercises_and_Solutions_v1.0.docx",
+                       "size_bytes":  19745,
+                       "sha256":  "408378d07e3e5a6cc84d6981343598a2d60ea4ddb42d7dfb9e53abe73a9e694e"
+                   },
+                   {
+                       "path":  "docs/PU-B01-C05_Educational_Exercises_and_Solutions_v1.0.pdf",
+                       "size_bytes":  109471,
+                       "sha256":  "b11406c8a81047366f8eae24fc1b8caaf91aa24f938b0087f8fc4ca857e3850a"
+                   },
+                   {
+                       "path":  "docs/PU-B01-C05_Executive_Brief_v1.0.docx",
+                       "size_bytes":  18001,
+                       "sha256":  "e77b2430c009840657cefcae270654ce71970afcbbce78bfbbae7b91eaafcd80"
+                   },
+                   {
+                       "path":  "docs/PU-B01-C05_Executive_Brief_v1.0.pdf",
+                       "size_bytes":  79887,
+                       "sha256":  "46c819abfb65f4fcd76a5323624fc30583cf229b78e0ec2db506b3cd4db648e9"
+                   },
+                   {
+                       "path":  "video/PU-B01-C05_Narration_v1.0.txt",
+                       "size_bytes":  12701,
+                       "sha256":  "c444e0585ec1e83e356de4392c7a33c71d23f79da3c67f9e1b13c30065d814d1"
+                   },
+                   {
+                       "path":  "video/PU-B01-C05_Video_Lesson_Deck_v1.0.pptx",
+                       "size_bytes":  74635,
+                       "sha256":  "18d64f9b89ef6a1c5cc68702ed988eace1230222dbb10ee2205a3e388163a3e8"
+                   },
+                   {
+                       "path":  "notebooks/M1/M1_N05_vector_spaces_bases_rank_projections_v0.2.2.ipynb",
+                       "size_bytes":  16276,
+                       "sha256":  "010d9a5f3109890312b5dcbf8fe143edcb733936ae75d5e2a86b5fc82ff90b89"
+                   },
+                   {
+                       "path":  "wheels/srai_math-1.1.1rc1-py3-none-any.whl",
+                       "size_bytes":  39025,
+                       "sha256":  "6e7033465ad3d9bf4650227a11be0380512a44fd476a83d5828ad4ec4f07e923"
+                   },
+                   {
+                       "path":  "runtime_source/srai_math-1.1.1rc1-source.zip",
+                       "size_bytes":  41890,
+                       "sha256":  "0db59d8ede783aa91309ea23b8f2033fa9c275326747048733e36d5e58b76dc9"
+                   }
+               ],
+    "runtime_release_url":  "https://github.com/mbayekebe/srai-book-01-mathematical-foundations/releases/tag/srai-math-v1.1.1rc1",
+    "lesson_release_url":  null,
+    "intended_release_version":  "1.0.0"
+}

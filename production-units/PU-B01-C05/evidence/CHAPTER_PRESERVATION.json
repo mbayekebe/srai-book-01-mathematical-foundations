@@ -1,0 +1,16 @@
+{
+  "chapter_source_sha256": "64b17ba4747a3cb84ee253b83a3b09bb384811caa521d74a526d4065ee97c650",
+  "chapter_preserved_mathematical_paragraphs": true,
+  "changed_chapter_paragraph_indices": [
+    1,
+    2,
+    79,
+    80
+  ],
+  "new_assets_require_owner_review": [
+    "exercises",
+    "executive_brief",
+    "video_deck"
+  ],
+  "independent_review": "not_recorded"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "notebook": "/workspace/scratch/9c80521aaebe/lesson5_production/package/notebooks/M1/M1_N05_vector_spaces_bases_rank_projections_v0.2.2.ipynb",
+  "mode": "validate",
+  "changed_cells": 0,
+  "delimiter_changes": 0,
+  "errors": [],
+  "standard": {
+    "inline_math": "$...$",
+    "display_math": "standalone $$ delimiters",
+    "forbidden": [
+      "\\(...\\)",
+      "\\[...\\]",
+      "equation-like standalone [ ... ]"
+    ]
+  }
+}

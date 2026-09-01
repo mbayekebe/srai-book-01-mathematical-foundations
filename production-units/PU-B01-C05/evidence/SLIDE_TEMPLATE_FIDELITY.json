@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-09-01T15:00:46.922Z",
+  "workspace": "/workspace/scratch/9c80521aaebe/lesson5_production/deck",
+  "finalPptx": "/workspace/scratch/9c80521aaebe/lesson5_production/package/video/PU-B01-C05_Video_Lesson_Deck_v1.0.pptx",
+  "starterPptx": "/workspace/scratch/9c80521aaebe/lesson5_production/deck/template-starter.pptx",
+  "mapPath": "/workspace/scratch/9c80521aaebe/lesson5_production/deck/template-frame-map.json",
+  "starterLayoutDir": "/workspace/scratch/9c80521aaebe/lesson5_production/deck/template-starter-layout",
+  "finalLayoutDir": "/workspace/scratch/9c80521aaebe/lesson5_production/deck/final",
+  "editDir": "/workspace/scratch/9c80521aaebe/lesson5_production/deck",
+  "issueCount": 0,
+  "issues": []
+}

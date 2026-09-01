@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "mode": "sequential_python_cells_not_jupyter",
+  "code_cells": 12,
+  "setup_source": "local pinned wheel; temporary target; no global install",
+  "output": "Processing /tmp/srai_runtime_bspsoafb/srai_math-1.1.1rc1-py3-none-any.whl\nInstalling collected packages: srai-math\nSuccessfully installed srai-math-1.1.1rc1\nSRAI runtime READY: verified 1.1.1rc1 (local wheel)\nSEQUENTIAL_NOTEBOOK_CELLS_PASSED: 12\n",
+  "stderr": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n",
+  "python": "3.12.13"
+}

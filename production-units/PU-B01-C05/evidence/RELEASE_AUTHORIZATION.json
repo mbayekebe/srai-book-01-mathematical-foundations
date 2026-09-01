@@ -1,0 +1,29 @@
+{
+    "record_version":  "1.0",
+    "production_unit":  "PU-B01-C05",
+    "recorded_utc":  "2026-09-01T17:00:13.2274367Z",
+    "owner":  "Mbaye Kebe",
+    "decision_source":  "Explicit owner confirmation in conversation",
+    "decision":  "AUTHORIZE_CONTROLLED_PUBLIC_RELEASE",
+    "intended_lesson_version":  "1.0.0",
+    "independent_review":  "Not performed; owner explicitly authorized proceeding without separate independent review",
+    "runtime_version":  "1.1.1rc1",
+    "runtime_status":  "Prerelease; not promoted to stable",
+    "runtime_sha256":  "6e7033465ad3d9bf4650227a11be0380512a44fd476a83d5828ad4ec4f07e923",
+    "notebook_version":  "0.2.2",
+    "notebook_sha256":  "010d9a5f3109890312b5dcbf8fe143edcb733936ae75d5e2a86b5fc82ff90b89",
+    "asset_approval":  "Owner approved",
+    "video_approval":  "VIDEO APPROVED",
+    "video_duration":  "00:16:00",
+    "video_size_bytes":  131209644,
+    "video_sha256":  "a2c905e1ec253d75f4fbe8507224f9cf1f7982b2001fee9ceb36d77832ebf2ed",
+    "youtube_url":  "https://www.youtube.com/watch?v=tZtdYcMEaIQ",
+    "publication_completed":  false,
+    "remaining_actions":  [
+                              "Construct and verify final release ZIP",
+                              "Publish GitHub release",
+                              "Integrate and verify website",
+                              "Confirm public video visibility",
+                              "Publish communications and close Operations record"
+                          ]
+}
