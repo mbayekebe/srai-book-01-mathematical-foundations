@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED",
+  "reason": "Kernel TCP startup denied by environment: Operation not permitted; kernel died before kernel_info. No attempt to bypass the restriction.",
+  "live_colab": "NOT_RUN",
+  "windows_vscode": "NOT_RUN"
+}

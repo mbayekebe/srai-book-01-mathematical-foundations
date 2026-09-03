@@ -1,0 +1,26 @@
+{
+  "unit": "PU-B01-C06",
+  "status": "INTEGRATION_CANDIDATE_NOT_PUBLISHED",
+  "notebook_sha256": "0b2a59c2c908e890ad7706d60ae0a9f82a78db4fe0d674c4fb0e1f58a499e7ff",
+  "notebook_unchanged": true,
+  "vscode": "pass_user_reported",
+  "colab": "pass_user_reported",
+  "executed_notebook_received": false,
+  "assets": "approved_by_owner_in_conversation",
+  "runtime_reuse_and_dependency_control_alternative": "explicitly_approved_by_owner_in_conversation",
+  "independent_review": "not_recorded_no_claim_made",
+  "youtube_url": "https://www.youtube.com/watch?v=a3jAhbDX2A0",
+  "youtube_visibility": "not_confirmed",
+  "release_published": false,
+  "website_deployed": false,
+  "source_files": {
+    "chapter6/deliverables/PU-B01-C06_Chapter6_Controlled_Candidate_v0.1.0.pdf": "fe7a688cd94fc507ccb59b83a54a8a495b6de7c363034eb0a861a285870f1f03",
+    "chapter6/deliverables/PU-B01-C06_Chapter6_Controlled_Candidate_v0.1.0.docx": "752e8f2b51c2b143ff93ab6682d85aff04824102b1cd7ac1164a47659c059758",
+    "companions/PU-B01-C06_Exercises_and_Solutions_v0.1.0.pdf": "d1390efb3cfac1f1748e22eb109ca53c037435f7ba651338c31fe9cf949c6415",
+    "companions/PU-B01-C06_Exercises_and_Solutions_v0.1.0.docx": "4044d88d288bac2da53ed6334abb4eef93402022b5c9243028c3d700416325be",
+    "companions/PU-B01-C06_Executive_Brief_v0.1.0.pdf": "25ed3b0324f89d3d3e158a54bf3f284647f57e9fe7ee1fa740ca934ce4dfb7a3",
+    "companions/PU-B01-C06_Executive_Brief_v0.1.0.docx": "7d514fca443c46e02c683d2d6844654c4672184c1a8ac38b513626c37c8029fc",
+    "restyle6/PU-B01-C06_Lesson6_Teaching_Deck_v0.1.2.pptx": "9d78fbb1456008ce510cfedc0c2c6a6549c91146526cc19dce5d95cc5d79613b"
+  },
+  "operations_baseline": "5c73d534c2ca0ac41c8474b8c345a98a872f1389"
+}

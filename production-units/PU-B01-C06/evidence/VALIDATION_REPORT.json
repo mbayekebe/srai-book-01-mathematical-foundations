@@ -1,0 +1,36 @@
+{
+  "unit": "PU-B01-C06",
+  "candidate_version": "0.1.0",
+  "status": "CANDIDATE_LOCAL_CHECKS_PASS_EXTERNAL_ACCEPTANCE_PENDING",
+  "release_ready": false,
+  "notebook_sha256": "0b2a59c2c908e890ad7706d60ae0a9f82a78db4fe0d674c4fb0e1f58a499e7ff",
+  "tests": {
+    "passed": 26,
+    "failed": 0,
+    "scope": "18 mathematical tests; 8 notebook/runtime controls including simulated verified-public transport, corrupt bytes, offline refusal and repeated bootstrap"
+  },
+  "markup_static": "PASS",
+  "notebook_schema": "PASS",
+  "sequential_plain_python": "PASS: 13 unchanged code cells, fresh Python process, bundled wheel, nested notebook working directory",
+  "figures": "Two generated figures visually inspected; not a live notebook Markdown rendering check",
+  "jupyter_kernel": "BLOCKED: local TCP startup permission denied; no bypass attempted",
+  "live_vscode_windows": "NOT_RUN",
+  "live_colab": "NOT_RUN",
+  "public_runtime_download": "INCOMPLETE: GitHub returned a release-asset redirect; destination timed out before bytes were verified",
+  "dependency_environment": "All declared imports available; pip check passed; exact versions in TEST_ENVIRONMENT.txt",
+  "legacy_operations_dependency_gate": "NAME_CONTRACT_MISMATCH: unchanged Operations gate expects ensure_srai_math/expected_sha256, candidate uses the established ensure_srai_runtime/WHEEL_SHA256 bootstrap. Candidate-specific checks are not automatically an adopted replacement.",
+  "runtime": "Unmodified srai_math 1.1.1rc1; zero-vector and power-iteration limitations handled explicitly in lesson reference functions",
+  "remaining": [
+    "Owner approval of runtime reuse and dependency-control alternative or compatibility repair",
+    "Fresh Windows VS Code Run All and rendered-markup review",
+    "Fresh live Colab Run All with verified public wheel bytes and rendered-markup review",
+    "Qualified mathematical and chapter/notebook alignment review",
+    "Remaining teaching assets, owner approval and actual publication"
+  ],
+  "no_changes_to": [
+    "Git repositories",
+    "Studio database",
+    "public website",
+    "production server"
+  ]
+}
