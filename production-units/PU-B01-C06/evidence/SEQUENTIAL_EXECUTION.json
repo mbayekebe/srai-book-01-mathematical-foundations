@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "method": "Plain Python process: unchanged code cells in sequence; plot display captured. NOT a Jupyter-kernel execution.",
+  "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "working_directory_role": "notebooks/M1",
+  "source_notebook_sha256": "0b2a59c2c908e890ad7706d60ae0a9f82a78db4fe0d674c4fb0e1f58a499e7ff",
+  "code_cells": 13,
+  "duration_seconds": 1.355,
+  "cells": [
+    {
+      "cell_index": 1,
+      "status": "PASS",
+      "stdout": "SRAI runtime READY: verified 1.1.1rc1 (local wheel)\n"
+    },
+    {
+      "cell_index": 2,
+      "status": "PASS",
+      "stdout": "Numerical dependencies READY\n"
+    },
+    {
+      "cell_index": 3,
+      "status": "PASS",
+      "stdout": "EnvironmentInfo(python='3.12.13', platform='Linux-6.18.35-x86_64-with-glibc2.39', numpy='2.5.2')\n{'numpy': '2.5.2', 'scipy': '1.18.1', 'sympy': '1.14.0', 'pandas': '2.3.3', 'matplotlib': '3.11.1', 'scikit-learn': '1.9.0', 'networkx': '3.6.1'}\n"
+    },
+    {
+      "cell_index": 5,
+      "status": "PASS",
+      "stdout": ""
+    },
+    {
+      "cell_index": 6,
+      "status": "PASS",
+      "stdout": "Zero vector correctly rejected\n   eigenvalue  residual\n0    3.0+0.0j       0.0\n1    1.0+0.0j       0.0\nNegative and zero eigenvalue examples: [[-2.  0.]\n [ 0.  0.]]\n"
+    },
+    {
+      "cell_index": 7,
+      "status": "PASS",
+      "stdout": ""
+    },
+    {
+      "cell_index": 9,
+      "status": "PASS",
+      "stdout": "Eigenvalues: [3. 1.] \nOrthonormal eigenvectors (columns):\n [[ 0.70710678 -0.70710678]\n [ 0.70710678  0.70710678]]\n"
+    },
+    {
+      "cell_index": 11,
+      "status": "PASS",
+      "stdout": "S^10 =\n [[29525. 29524.]\n [29524. 29525.]]\nDefective Jordan matrix correctly rejected by diagonalize\nReal rotation, complex eigenvalues: [0.+1.j 0.-1.j]\n"
+    },
+    {
+      "cell_index": 13,
+      "status": "PASS",
+      "stdout": "S dominant estimate: {'value': 3.0000000000000004, 'vector': array([0.70710678, 0.70710678]), 'iterations': 20, 'residual': 6.373272205517568e-11}\nNegative dominant eigenvalue: -3.0\nEqual-modulus oscillation: correctly refused false convergence\nAn exact but NONdominant eigenpair from a special start: 1.0\n"
+    },
+    {
+      "cell_index": 15,
+      "status": "PASS",
+      "stdout": ""
+    },
+    {
+      "cell_index": 17,
+      "status": "PASS",
+      "stdout": "   eigenvalue  explained_variance_ratio\n0    3.198773                  0.990588\n1    0.030394                  0.009412\nAfter multiplying variable 2 by 100: [0.99999602 0.00000398]\n"
+    },
+    {
+      "cell_index": 19,
+      "status": "PASS",
+      "stdout": "             synthetic_dominant_mode_weight\nAgriculture                        0.200248\nHealth                             0.232850\nEnergy                             0.282557\nTransport                          0.284345\nSpectral radius: 1.3114820544971353 Residual: 5.619705235576369e-11\nNOT empirical priorities, probabilities or budget shares.\n"
+    },
+    {
+      "cell_index": 21,
+      "status": "PASS",
+      "stdout": "LESSON 6 NOTEBOOK CHECKS: PASS\n{'symmetric_reconstruction': True, 'power_10': True, 'covariance_score_variance': True, 'sector_residual': True, 'sector_growth_disclosed': True}\nRuntime: 1.1.1rc1 ; Python: 3.12.13\nCandidate only; external publication and live UI checks are not asserted.\n"
+    }
+  ],
+  "note": "Windows VS Code and live Colab execution remain pending."
+}

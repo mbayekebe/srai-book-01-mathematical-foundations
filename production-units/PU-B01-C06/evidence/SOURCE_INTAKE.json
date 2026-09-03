@@ -1,0 +1,9 @@
+{
+  "unit": "PU-B01-C06",
+  "source_notebook_sha256": "b669da28047228e86307c90f791f556f478e08922b3d4701cfe7f4c560fa5bd1",
+  "book_master_sha256": "9ccb8293de2170c0feb32f19551a3a433ef3005dfd5476efd65192326965195b",
+  "wheel_sha256": "6e7033465ad3d9bf4650227a11be0380512a44fd476a83d5828ad4ec4f07e923",
+  "runtime_modified": false,
+  "notebook_changed": true,
+  "chapter_produced_in_this_package": false
+}

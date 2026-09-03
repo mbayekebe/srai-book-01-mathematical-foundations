@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "notebook": "/workspace/scratch/9c80521aaebe/lesson6_candidate/SRAI_PU-B01-C06_Notebook_Candidate_v0.1.0/notebooks/M1/M1_N06_eigenvalues_eigenvectors_spectral_intuition_v0.1.0.ipynb",
+  "mode": "validate",
+  "changed_cells": 0,
+  "delimiter_changes": 0,
+  "errors": [],
+  "standard": {
+    "inline_math": "$...$",
+    "display_math": "standalone $$ delimiters",
+    "forbidden": [
+      "\\(...\\)",
+      "\\[...\\]",
+      "equation-like standalone [ ... ]"
+    ]
+  }
+}
