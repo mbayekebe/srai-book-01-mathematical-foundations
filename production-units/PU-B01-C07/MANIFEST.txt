@@ -1,0 +1,7 @@
+Production Unit: PU-B01-C07
+Title: Singular Value Decomposition, PCA, and Dimensionality Reduction
+Asset status: validated offline publication candidate v0.1
+Files before checksum: 16
+Canonical notebook: M1_N07_svd_pca_dimensionality_reduction.ipynb
+Data: synthetic instructional data only
+

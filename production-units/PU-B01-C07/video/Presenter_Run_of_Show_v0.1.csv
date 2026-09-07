@@ -1,0 +1,10 @@
+segment,minutes,purpose,slides
+Opening question,1.5,"Frame compression as a decision about information removal","1-2"
+SVD anatomy,2.5,"Explain input directions, strengths and output directions","3"
+Verification,2,"Demonstrate reconstruction, orthogonality and ordering checks","4"
+Low-rank approximation,2,"Connect retained rank to measured reconstruction loss","5"
+PCA from SVD,2.5,"Explain centering, decomposition and retained dimensions","6-7"
+National-indicator case,2,"Separate mathematical patterns from causal or budget claims","8"
+Failure modes and workflow,2.5,"Show leakage, convenient-k, causal naming and evidence controls","9-10"
+Reasoning clinic and close,1.5,"Reinforce accountable interpretation and stopping rules","11-12"
+
