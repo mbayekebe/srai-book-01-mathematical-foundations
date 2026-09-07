@@ -23,9 +23,9 @@ This production unit provides the independently reviewed and reproducibly valida
 
 ## Video evidence
 
-Approved video master: v1.1  
-Duration: 00:13:33  
-SHA-256: `83b5fe465f24173677749f9caa2eb05c677cc0e2f810b90cf4c9d075f47ae025`
+- Approved video master: v1.1
+- Duration: 00:13:33
+- SHA-256: `83b5fe465f24173677749f9caa2eb05c677cc0e2f810b90cf4c9d075f47ae025`
 
 ## Local notebook setup
 
